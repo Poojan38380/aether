@@ -148,14 +148,7 @@ async function main(): Promise<void> {
 
   loadingEl.classList.add('hidden')
 
-  // Layout text once — we'll flow it around smoke each frame
-  // But we need to re-layout each frame since obstacles change
-  // We'll do this in the render loop
-
-  let lastTime = performance.now()
-
   function frame(now: number): void {
-    lastTime = now
     const time = now / 1000
 
     // FPS
