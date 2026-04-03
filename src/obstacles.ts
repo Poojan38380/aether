@@ -71,7 +71,7 @@ export function densityToObstacles(
   threshold: number,
   pixelX: number,
   _pixelY: number,
-  _pixelColWidth: number,
+  pixelColWidth: number,
   _pixelRowHeight: number,
 ): ObstacleInterval[] {
   const intervals: ObstacleInterval[] = []
