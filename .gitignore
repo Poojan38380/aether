@@ -13,6 +13,7 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
+Desktop.ini
 
 # Logs
 *.log
@@ -21,3 +22,13 @@ npm-debug.log*
 # Env
 .env
 .env.local
+
+# Coverage
+coverage/
+
+# Cache
+.turbo/
+.cache/
+
+# Qwen Code
+.qwen/
